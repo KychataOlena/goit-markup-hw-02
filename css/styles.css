@@ -1,0 +1,108 @@
+/* колір н1 FFFFFF */
+/* колір н3,н2 212121 */
+/* колір головного тексту 757575 */
+/* колір тексту футер rgba(255, 255, 255, 0.6) */
+/* WebStudio * #2196F3;  #000000/ 
+/* колір кнопки #2196F3 */
+/* акцент колір  #2196F3; */
+/* background color: FFFFFF; */
+/* другий фоновий колыр F5F4FA */
+
+:root{
+   --primery-text-color:#757575;
+   --title-text-color:#212121;
+   --accent-color:#2196F3;
+   --primery-nav-color:#212121;
+   --auth-color:#757575;
+   --text-white-color:#FFFFFF;
+}
+
+
+ul{
+   list-style: none;
+}
+.page-body{
+   background-color:#FFFFFF;
+   color:var(--primery-text-color);
+}
+
+/* Лого студії */
+.logo-web{
+   color: #2196F3;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+
+}
+.logo-studio{
+   color: black;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+}
+
+/* Site nav */
+.site-nav .link{
+   color: var(--primery-nav-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+   color: var(--accent-color);
+}
+.site-nav .current{
+   color: var(--accent-color);
+}
+
+/* Auth nav */
+.auth-nav .link{
+   color: var(--auth-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+   color:var(--accent-color);
+}
+
+/* title */
+.main-title{
+   color: var(--title-text-color)
+}
+
+/* Section */
+.section-title{
+   color: var(--title-text-color);
+}
+
+/* About Feauters" */
+.feauters-list .title{
+   color: var(--title-text-color);
+}
+
+/* Team */
+.company-list .title{
+   color: var(--title-text-color);
+}
+
+/* Button */
+.button{
+   background-color: var(--accent-color);
+   color: var(--text-white-color);
+
+}
+
+/* Footer */
+.adress{
+   color: var(--text-white-color);
+}
+.adress.link{
+   color: var(--auth-color);
+}
+.adress.link:hover,
+.adress.link:focus{
+   color: var(--accent-color);
+}
