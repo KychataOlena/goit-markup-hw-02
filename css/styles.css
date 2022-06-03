@@ -61,6 +61,7 @@ ul{
 .site-nav .link{
 color: var(--primery-nav-color);
 font-size: 14px;
+font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
@@ -77,6 +78,7 @@ text-decoration: none;
 .auth-nav .link{
 color: var(--auth-color);
 font-size: 14px;
+font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
@@ -94,6 +96,7 @@ text-decoration: none;
    line-height: 1.36;
    text-align: center;
    letter-spacing: 0.06em;
+   text-transform: uppercase;
    background-color: black;
    color: var(--text-white-color)
 }
@@ -112,6 +115,7 @@ text-decoration: none;
    
    font-size: 14px;
    line-height: 1.14;
+   text-transform: uppercase;
    color: var(--title-text-color);
 }
 .feauters-list .text{
@@ -150,29 +154,39 @@ text-decoration: none;
 
 /* Button */
 .button{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
    color: var(--title-text-color);
-   background-color: var(--button-color);
-   font-family: inherit;
+   background: #F5F4FA;
+   text-align: center;
+   border-radius: 4px;
+   width: 145px;
+   height: 38px;
+   left: 711px;
+   top: 178px;
+   
 }
-.filter .button:hover,
-.filter .button:focus{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-background-color: var(--accent-color);
-color: var(--text-white-color);
+   .filter .button:hover,
+   .filter .button:focus{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   text-align: center;
+   background-color: var(--accent-color);
+   color: var(--text-white-color);
  
 }
 .button.primary{
 
    font-size: 16px;
    line-height: 1.87;
+   font-weight: 700;
    letter-spacing: 0.06em;
    cursor: pointer;
    background-color: var(--accent-color);
    color: var(--text-white-color)
-   
 }
 
 
@@ -182,20 +196,22 @@ color: var(--text-white-color);
 }
 .adress{
    font-style: normal;
+   font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
    color: var(--text-white-color);
    text-decoration: none;
 }
 
-.adress.link{
-font-size: 14px;
-line-height: 1.71;
-color: var(--adrress-text-color);
-text-decoration: none;
-   
-}
-.adress.link:hover,
-.adress.link:focus{
-color: var(--accent-color);
-}
+   .adress.link{
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 1.71;
+   color: var(--adrress-text-color);
+   text-decoration: none;
+   }
+
+   .adress.link:hover,
+   .adress.link:focus{
+   color: var(--accent-color);
+   }
